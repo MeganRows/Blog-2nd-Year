@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pet Gallery . Rosebud</title>
+	<style>
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.banner{
+	min-height: 100%;
+	width: 100%;
+	background-image: url(images/paw.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.navbar{
+	margin: auto;
+	width: 100%;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content:right;
+	background: rgba(0, 0, 0, 0.4);
+	right: 0;
+	position: fixed;
+}
+.logo{
+	width: 50%;
+	float: left;
+	text-align: left;
+	line-height: 10px;
+}
+.logo a{
+	text-decoration: none;
+	font-size: 30px;
+	font-family: cursive;
+	color: #fff;
+	letter-spacing: 4px;
+}
+.navbar ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 20px;
+	position: relative;
+
+}
+.navbar ul li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	justify-content:right;
+}
+.navbar ul li::after{
+	content: '';
+	width: 0;
+	height: 3px;
+	background: #ffef96;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	width: 100%;
+}
+.content{
+	width: 100%;
+	text-align: center;
+}
+.pet {
+width: 98%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 15px;
+padding-top: 8%;
+}
+
+	</style>
+
+
+</head>
+<body>
+	<div class="banner">
+		<div class="navbar">
+			<div class="logo">
+				<a href="#">Rosebud . Pet Gallery</a>
+			</div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="literature.html">Literature</a></li>
+				<li><a href="petgallery.html">Pet Gallery</a></li>
+				<li><a href="drawing.html">Art Gallery</a></li>
+				<li><a href="music.html">Music</a></li>
+
+			</ul>
+		</div>
+		<div class="content">
+			<div class="pet">
+				<div class="petgall">
+				<img src="images/a.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/b.jpg" width="100%">
+		    </div>
+		    <div class="petgall">
+			<img src="images/c.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/d.jpg" width="100%">
+		    </div>
+		    <div class="petgall">
+			<img src="images/e.jpg" width="100%">
+		    </div>
+		    <div class="petgall">
+			<img src="images/f.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/g.jpg" width="100%">
+		    </div>
+		    <div class="petgall">
+			<img src="images/h.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/i.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/j.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/k.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/l.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/m.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/n.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/o.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/p.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/q.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/r.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/t.jpg" width="100%">
+			</div>
+			<div class="petgall">
+			<img src="images/u.jpg" width="100%">
+			</div>
+			
+		</div>
+	</div>
+	</div>
+</div>
+</body>
+</html>
